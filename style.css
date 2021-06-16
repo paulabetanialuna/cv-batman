@@ -1,7 +1,16 @@
+*{
+    background-color: #E5E5E5;
+}
+
 header {
     display: flex;
     justify-content: center; 
     align-items: center;
     flex-direction: column;
 
+}
+
+main {
+    background-color: white;
+    margin: 0 225 0 225;
 }
