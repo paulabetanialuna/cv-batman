@@ -30,29 +30,61 @@ h1{
     top: 188px;
     text-align: center;
     margin-bottom: 0px;
-    letter-spacing: 3px;
-    word-spacing: 5px;
+    letter-spacing: 12px;
+    word-spacing: 20px;
+    padding: 0.5em;
 }
 
 
 
 main {
     background-color: white;
-    padding:104px 225px 0px 225px;
+    padding:104px 225px 300px 225px;
+}
+
+li{
+    padding-top: 0.3em;
 }
 
 h2 {
     background: #C4C4C4;
     color:#005677;
-    letter-spacing: 3px;
-    word-spacing: 5px;
+    letter-spacing: 5px; /*espaciado entre las letras*/
+    word-spacing: 10px; /*espaciado entre las palabras*/
     padding: 0.3em 1em 0.3em 1em;
     margin: 1em 0em 1em 0em;
 }
 
-ul li {
+#datos_personales li {
+    margin-inline-start: 70px;
+}
+
+#datos_personales span{
+    font-style:normal;
+    font-weight:normal;
+}
+
+#formacion_academica ul li {
     list-style: none;
-    margin-inline-start: 50px;
+    margin-inline-start: 70px;
+}
+
+.li_negrita1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.li_negrita {
+    font-weight: bold;
+}
+.li_none{
+    font-style:normal;
+    font-weight:normal;
+}
+
+#experiencia_laboral ul li {
+    list-style: none;
+    margin-inline-start: 70px;
 }
 
 footer{
